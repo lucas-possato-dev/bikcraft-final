@@ -1,7 +1,6 @@
 .introducao-bg {
-  background: #000000;
-  color: #ffffff;
-  box-shadow: inset 0px -120px #ffffff;
+  background: var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -23,23 +22,10 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "Poppins";
-  font-weight: 600;
-}
-
-.introducao h1 span {
-  color: #FFBB00;
 }
 
 .introducao p {
   margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 
@@ -77,8 +63,8 @@
   }
   .introducao-bg {
     padding-top: 40px;
-    background: #111111;
-    box-shadow: inset 0px -60px #ffffff;
+    background: var(--cor-11);
+    box-shadow: inset 0px -60px var(--cor-0);
   }
 }
 
